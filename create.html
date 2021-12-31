@@ -12,7 +12,51 @@
 <title>create post</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light  mb-5" style="background-color: rgb(247, 252, 0);">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Webed</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Editor</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+      <div class="container">
+        <div class="jumbotron">
+            <h1 class=" text-center">CREATE CONTENT</h1>
+            <div class="row">
+                <div class="col-md-7 mx-auto" >
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Blog headline</label>
+                          <input placeholder="enter headline" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Blog Content</label>
+                            <textarea  placeholder="enter content" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Author Name</label>
+                          <input placeholder="enter author name" type="text" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-outline-primary">Submit</button>
+                      </form>
 
+                </div>
+            </div>
+           
+          </div>
+      </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
